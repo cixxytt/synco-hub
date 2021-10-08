@@ -60,7 +60,7 @@ namespace Dashboard
 			}
 			if (circularProgressBar1.Value == 30)
 			{
-				loadingLabel.Text = "Kissing zalrz...";
+				loadingLabel.Text = "Searching Github...";
 			}
 			if (circularProgressBar1.Value == 60)
 			{
@@ -75,7 +75,7 @@ namespace Dashboard
 			if (circularProgressBar1.Value == 100)
 			{
 				timer1.Enabled = false;
-				Form1 main = new Form1();
+				Main main = new Main();
 				main.Show();
 			}
 		}

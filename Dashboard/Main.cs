@@ -32,7 +32,7 @@ using System.IO;
 
 namespace Dashboard
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
@@ -48,7 +48,7 @@ namespace Dashboard
 
          );
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
 

@@ -6,8 +6,29 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Diagnostics;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+using System;
+using System.Drawing;
+using System.Linq;
+using System.Management;
+using System.Net.NetworkInformation;
+using System.Windows.Forms;
+using System.Diagnostics;
+using System.Threading;
+using System.Reflection;
+using System.Net;
+using System.IO;
 
 namespace Dashboard
 {
@@ -16,6 +37,9 @@ namespace Dashboard
         public frmDownloads()
         {
             InitializeComponent();
+
+            panel1.AutoScroll = true;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
         }
 
 		private void siticoneButton1_Click(object sender, EventArgs e)
@@ -31,5 +55,15 @@ namespace Dashboard
                 UseShellExecute = true
             });
         }
+
+		private void panel1_Paint(object sender, PaintEventArgs e)
+		{
+            
+        }
+
+		private void siticoneButton2_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }

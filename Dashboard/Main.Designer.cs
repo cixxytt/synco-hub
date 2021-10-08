@@ -1,6 +1,6 @@
 ﻿namespace Dashboard
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.pnlNav = new System.Windows.Forms.Panel();
 			this.btnsettings = new System.Windows.Forms.Button();
@@ -95,7 +95,7 @@
 			this.btnContactUs.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnContactUs.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnContactUs.ForeColor = System.Drawing.Color.White;
-			this.btnContactUs.Location = new System.Drawing.Point(0, 280);
+			this.btnContactUs.Location = new System.Drawing.Point(0, 238);
 			this.btnContactUs.Name = "btnContactUs";
 			this.btnContactUs.Size = new System.Drawing.Size(186, 42);
 			this.btnContactUs.TabIndex = 1;
@@ -107,16 +107,15 @@
 			// 
 			// btnCalender
 			// 
-			this.btnCalender.Dock = System.Windows.Forms.DockStyle.Top;
 			this.btnCalender.FlatAppearance.BorderSize = 0;
 			this.btnCalender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
 			this.btnCalender.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnCalender.ForeColor = System.Drawing.Color.White;
-			this.btnCalender.Location = new System.Drawing.Point(0, 238);
+			this.btnCalender.Location = new System.Drawing.Point(0, 462);
 			this.btnCalender.Name = "btnCalender";
 			this.btnCalender.Size = new System.Drawing.Size(186, 42);
 			this.btnCalender.TabIndex = 1;
-			this.btnCalender.Text = "Calendar";
+			this.btnCalender.Text = "System Info";
 			this.btnCalender.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
 			this.btnCalender.UseVisualStyleBackColor = true;
 			this.btnCalender.Click += new System.EventHandler(this.btnCalender_Click);
@@ -133,7 +132,7 @@
 			this.btnAnalytics.Name = "btnAnalytics";
 			this.btnAnalytics.Size = new System.Drawing.Size(186, 42);
 			this.btnAnalytics.TabIndex = 1;
-			this.btnAnalytics.Text = "Analytics";
+			this.btnAnalytics.Text = "Downloads";
 			this.btnAnalytics.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
 			this.btnAnalytics.UseVisualStyleBackColor = true;
 			this.btnAnalytics.Click += new System.EventHandler(this.btnAnalytics_Click);
@@ -222,7 +221,7 @@
 			this.pnlFormLoader.Size = new System.Drawing.Size(733, 477);
 			this.pnlFormLoader.TabIndex = 14;
 			// 
-			// Form1
+			// Main
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -233,7 +232,7 @@
 			this.Controls.Add(this.lbltitle);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.Name = "Form1";
+			this.Name = "Main";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form1";
 			this.Load += new System.EventHandler(this.Form1_Load);

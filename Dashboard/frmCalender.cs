@@ -15,7 +15,10 @@ namespace Dashboard
         public frmCalender()
         {
             InitializeComponent();
-        }
+
+			panel1.AutoScroll = true;
+			panel1.BorderStyle = BorderStyle.FixedSingle;
+		}
 
 		private void frmCalender_Load(object sender, EventArgs e)
 		{
@@ -23,6 +26,11 @@ namespace Dashboard
 		}
 
 		private void timer1_Tick(object sender, EventArgs e)
+		{
+
+		}
+
+		private void panel1_Paint(object sender, PaintEventArgs e)
 		{
 
 		}
