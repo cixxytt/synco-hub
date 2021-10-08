@@ -52,15 +52,14 @@ namespace Dashboard
         {
             InitializeComponent();
 
-            Splash splash = new Splash();
-            splash.Hide();
+            usernameLabel.Text = "Welcome, " + Environment.UserName;
 
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
             pnlNav.Height = btnDashbord.Height;
             pnlNav.Top = btnDashbord.Top;
             pnlNav.Left = btnDashbord.Left;
 
-            lbltitle.Text = "Dashbord";
+            lbltitle.Text = "Dashboard";
             frmDashboard frmDashboard_vrb = new frmDashboard() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmDashboard_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmDashboard_vrb);
