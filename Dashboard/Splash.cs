@@ -76,9 +76,7 @@ namespace Dashboard
 			{
 				timer1.Enabled = false;
 				Form1 main = new Form1();
-				Splash splash = new Splash();
 				main.Show();
-				splash.Close();
 			}
 		}
 

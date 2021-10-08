@@ -63,11 +63,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmAnalytics.cs">
+    <Compile Include="frmDownloads.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAnalytics.Designer.cs">
-      <DependentUpon>frmAnalytics.cs</DependentUpon>
+    <Compile Include="frmDownloads.Designer.cs">
+      <DependentUpon>frmDownloads.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCalender.cs">
       <SubType>Form</SubType>
@@ -104,8 +104,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmAnalytics.resx">
-      <DependentUpon>frmAnalytics.cs</DependentUpon>
+    <EmbeddedResource Include="frmDownloads.resx">
+      <DependentUpon>frmDownloads.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmCalender.resx">
       <DependentUpon>frmCalender.cs</DependentUpon>

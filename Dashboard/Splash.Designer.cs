@@ -41,19 +41,19 @@ namespace Dashboard
 			// 
 			this.circularProgressBar1.AnimationFunction = ((WinFormAnimation.AnimationFunctions.Function)(resources.GetObject("circularProgressBar1.AnimationFunction")));
 			this.circularProgressBar1.AnimationSpeed = 500;
-			this.circularProgressBar1.BackColor = System.Drawing.Color.White;
+			this.circularProgressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(38)))), ((int)(((byte)(77)))));
 			this.circularProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
-			this.circularProgressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-			this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+			this.circularProgressBar1.ForeColor = System.Drawing.Color.White;
+			this.circularProgressBar1.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(56)))), ((int)(((byte)(120)))));
 			this.circularProgressBar1.InnerMargin = 2;
 			this.circularProgressBar1.InnerWidth = -1;
 			this.circularProgressBar1.Location = new System.Drawing.Point(73, 42);
-			this.circularProgressBar1.MarqueeAnimationSpeed = 2000;
+			this.circularProgressBar1.MarqueeAnimationSpeed = 7000;
 			this.circularProgressBar1.Name = "circularProgressBar1";
-			this.circularProgressBar1.OuterColor = System.Drawing.Color.Gray;
+			this.circularProgressBar1.OuterColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(38)))), ((int)(((byte)(77)))));
 			this.circularProgressBar1.OuterMargin = -25;
 			this.circularProgressBar1.OuterWidth = 26;
-			this.circularProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+			this.circularProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(77)))), ((int)(((byte)(46)))), ((int)(((byte)(95)))));
 			this.circularProgressBar1.ProgressWidth = 25;
 			this.circularProgressBar1.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
 			this.circularProgressBar1.Size = new System.Drawing.Size(320, 320);
@@ -77,13 +77,14 @@ namespace Dashboard
 			// 
 			// loadingLabel
 			// 
-			this.loadingLabel.AutoSize = true;
 			this.loadingLabel.Font = new System.Drawing.Font("Dosis", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.loadingLabel.Location = new System.Drawing.Point(183, 365);
+			this.loadingLabel.ForeColor = System.Drawing.Color.White;
+			this.loadingLabel.Location = new System.Drawing.Point(12, 365);
 			this.loadingLabel.Name = "loadingLabel";
-			this.loadingLabel.Size = new System.Drawing.Size(90, 41);
+			this.loadingLabel.Size = new System.Drawing.Size(442, 41);
 			this.loadingLabel.TabIndex = 1;
 			this.loadingLabel.Text = "label1";
+			this.loadingLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// backgroundWorker1
 			// 
@@ -93,6 +94,7 @@ namespace Dashboard
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(38)))), ((int)(((byte)(77)))));
 			this.ClientSize = new System.Drawing.Size(466, 477);
 			this.Controls.Add(this.loadingLabel);
 			this.Controls.Add(this.circularProgressBar1);
@@ -102,7 +104,6 @@ namespace Dashboard
 			this.Text = "Splash";
 			this.Load += new System.EventHandler(this.Splash_Load);
 			this.ResumeLayout(false);
-			this.PerformLayout();
 
 		}
 
