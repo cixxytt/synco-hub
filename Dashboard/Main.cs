@@ -108,11 +108,11 @@ namespace Dashboard
             btnCalender.BackColor = Color.FromArgb(52, 31, 65);
 
             this.pnlFormLoader.Controls.Clear();
-            frmCalender frmCalender_vrb = new frmCalender() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
+            frmSystemInfo frmCalender_vrb = new frmSystemInfo() { Dock = DockStyle.Fill, TopLevel = false, TopMost = true };
             frmCalender_vrb.FormBorderStyle = FormBorderStyle.None;
             this.pnlFormLoader.Controls.Add(frmCalender_vrb);
             frmCalender_vrb.Show();
-            lbltitle.Text = "Calendar";
+            lbltitle.Text = "System Info";
         }
 
         private void btnContactUs_Click(object sender, EventArgs e)

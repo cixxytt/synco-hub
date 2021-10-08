@@ -190,11 +190,11 @@
 			// 
 			this.button1.FlatAppearance.BorderSize = 0;
 			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.button1.ForeColor = System.Drawing.Color.White;
-			this.button1.Location = new System.Drawing.Point(873, 30);
+			this.button1.Location = new System.Drawing.Point(1065, 0);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(25, 25);
+			this.button1.Size = new System.Drawing.Size(42, 43);
 			this.button1.TabIndex = 12;
 			this.button1.Text = "X";
 			this.button1.UseVisualStyleBackColor = true;
@@ -218,7 +218,7 @@
 			this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlFormLoader.Location = new System.Drawing.Point(186, 75);
 			this.pnlFormLoader.Name = "pnlFormLoader";
-			this.pnlFormLoader.Size = new System.Drawing.Size(733, 477);
+			this.pnlFormLoader.Size = new System.Drawing.Size(921, 477);
 			this.pnlFormLoader.TabIndex = 14;
 			// 
 			// Main
@@ -226,7 +226,7 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(32)))), ((int)(((byte)(66)))));
-			this.ClientSize = new System.Drawing.Size(919, 552);
+			this.ClientSize = new System.Drawing.Size(1107, 552);
 			this.Controls.Add(this.pnlFormLoader);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.lbltitle);
