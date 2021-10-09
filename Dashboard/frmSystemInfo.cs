@@ -47,6 +47,8 @@ namespace Dashboard
 			label44.Text = "" + siticoneDeviceInfo1.GetBatteryEstimatedChargeRemaining;
 			label43.Text = "" + siticoneDeviceInfo1.GetBatteryChemistry;
 
+			label8.Text = "" + siticoneDeviceInfo1.GetGuid;
+			label25.Text = "" + siticoneDeviceInfo1.GetUniqueId;
 		}
 
 		private void frmCalender_Load(object sender, EventArgs e)

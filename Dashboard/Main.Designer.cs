@@ -49,7 +49,7 @@
 			// 
 			// panel1
 			// 
-			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(62)))), ((int)(((byte)(38)))), ((int)(((byte)(77)))));
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
 			this.panel1.Controls.Add(this.pnlNav);
 			this.panel1.Controls.Add(this.btnsettings);
 			this.panel1.Controls.Add(this.btnContactUs);
@@ -65,7 +65,7 @@
 			// 
 			// pnlNav
 			// 
-			this.pnlNav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(32)))), ((int)(((byte)(66)))));
+			this.pnlNav.BackColor = System.Drawing.Color.Gray;
 			this.pnlNav.Location = new System.Drawing.Point(0, 193);
 			this.pnlNav.Name = "pnlNav";
 			this.pnlNav.Size = new System.Drawing.Size(3, 100);
@@ -214,7 +214,7 @@
 			// 
 			// pnlFormLoader
 			// 
-			this.pnlFormLoader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(32)))), ((int)(((byte)(66)))));
+			this.pnlFormLoader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.pnlFormLoader.Dock = System.Windows.Forms.DockStyle.Bottom;
 			this.pnlFormLoader.Location = new System.Drawing.Point(186, 75);
 			this.pnlFormLoader.Name = "pnlFormLoader";
@@ -225,13 +225,14 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(32)))), ((int)(((byte)(66)))));
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(1107, 552);
 			this.Controls.Add(this.pnlFormLoader);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.lbltitle);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Main";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form1";

@@ -32,6 +32,28 @@
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.siticoneDeviceInfo1 = new Siticone.Desktop.UI.WinForms.SiticoneDeviceInfo(this.components);
 			this.panel1 = new System.Windows.Forms.Panel();
+			this.siticoneVSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
+			this.siticoneVSeparator1 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
+			this.label41 = new System.Windows.Forms.Label();
+			this.label42 = new System.Windows.Forms.Label();
+			this.label43 = new System.Windows.Forms.Label();
+			this.label44 = new System.Windows.Forms.Label();
+			this.label45 = new System.Windows.Forms.Label();
+			this.label46 = new System.Windows.Forms.Label();
+			this.label47 = new System.Windows.Forms.Label();
+			this.label48 = new System.Windows.Forms.Label();
+			this.label49 = new System.Windows.Forms.Label();
+			this.siticoneSeparator9 = new Siticone.Desktop.UI.WinForms.SiticoneSeparator();
+			this.label50 = new System.Windows.Forms.Label();
+			this.label51 = new System.Windows.Forms.Label();
+			this.label52 = new System.Windows.Forms.Label();
+			this.label53 = new System.Windows.Forms.Label();
+			this.label40 = new System.Windows.Forms.Label();
+			this.label39 = new System.Windows.Forms.Label();
+			this.label37 = new System.Windows.Forms.Label();
+			this.label38 = new System.Windows.Forms.Label();
+			this.label35 = new System.Windows.Forms.Label();
+			this.label36 = new System.Windows.Forms.Label();
 			this.label32 = new System.Windows.Forms.Label();
 			this.label33 = new System.Windows.Forms.Label();
 			this.label34 = new System.Windows.Forms.Label();
@@ -76,29 +98,7 @@
 			this.label18 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.hwidLabel = new System.Windows.Forms.Label();
-			this.label35 = new System.Windows.Forms.Label();
-			this.label36 = new System.Windows.Forms.Label();
-			this.label37 = new System.Windows.Forms.Label();
-			this.label38 = new System.Windows.Forms.Label();
-			this.label39 = new System.Windows.Forms.Label();
-			this.label40 = new System.Windows.Forms.Label();
-			this.label41 = new System.Windows.Forms.Label();
-			this.label42 = new System.Windows.Forms.Label();
-			this.label43 = new System.Windows.Forms.Label();
-			this.label44 = new System.Windows.Forms.Label();
-			this.label45 = new System.Windows.Forms.Label();
-			this.label46 = new System.Windows.Forms.Label();
-			this.label47 = new System.Windows.Forms.Label();
-			this.label48 = new System.Windows.Forms.Label();
-			this.label49 = new System.Windows.Forms.Label();
-			this.siticoneSeparator9 = new Siticone.Desktop.UI.WinForms.SiticoneSeparator();
-			this.label50 = new System.Windows.Forms.Label();
-			this.label51 = new System.Windows.Forms.Label();
-			this.label52 = new System.Windows.Forms.Label();
-			this.label53 = new System.Windows.Forms.Label();
 			this.siticoneTaskBarProgress1 = new Siticone.Desktop.UI.WinForms.SiticoneTaskBarProgress(this.components);
-			this.siticoneVSeparator1 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
-			this.siticoneVSeparator2 = new Siticone.Desktop.UI.WinForms.SiticoneVSeparator();
 			this.panel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -176,18 +176,262 @@
 			this.panel1.Controls.Add(this.label18);
 			this.panel1.Controls.Add(this.label1);
 			this.panel1.Controls.Add(this.hwidLabel);
-			this.panel1.Location = new System.Drawing.Point(-2, -3);
+			this.panel1.Location = new System.Drawing.Point(2, 2);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(937, 511);
+			this.panel1.Size = new System.Drawing.Size(860, 474);
 			this.panel1.TabIndex = 0;
 			this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+			// 
+			// siticoneVSeparator2
+			// 
+			this.siticoneVSeparator2.BackColor = System.Drawing.Color.Transparent;
+			this.siticoneVSeparator2.FillColor = System.Drawing.Color.White;
+			this.siticoneVSeparator2.FillThickness = 3;
+			this.siticoneVSeparator2.Location = new System.Drawing.Point(709, 0);
+			this.siticoneVSeparator2.Name = "siticoneVSeparator2";
+			this.siticoneVSeparator2.Size = new System.Drawing.Size(10, 132);
+			this.siticoneVSeparator2.TabIndex = 64;
+			this.siticoneVSeparator2.UseTransparentBackground = true;
+			// 
+			// siticoneVSeparator1
+			// 
+			this.siticoneVSeparator1.BackColor = System.Drawing.Color.Transparent;
+			this.siticoneVSeparator1.FillColor = System.Drawing.Color.White;
+			this.siticoneVSeparator1.FillThickness = 3;
+			this.siticoneVSeparator1.Location = new System.Drawing.Point(349, 0);
+			this.siticoneVSeparator1.Name = "siticoneVSeparator1";
+			this.siticoneVSeparator1.Size = new System.Drawing.Size(10, 453);
+			this.siticoneVSeparator1.TabIndex = 63;
+			this.siticoneVSeparator1.UseTransparentBackground = true;
+			this.siticoneVSeparator1.Click += new System.EventHandler(this.siticoneVSeparator1_Click);
+			// 
+			// label41
+			// 
+			this.label41.AutoSize = true;
+			this.label41.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label41.ForeColor = System.Drawing.Color.White;
+			this.label41.Location = new System.Drawing.Point(187, 303);
+			this.label41.Name = "label41";
+			this.label41.Size = new System.Drawing.Size(55, 25);
+			this.label41.TabIndex = 62;
+			this.label41.Text = "label1";
+			// 
+			// label42
+			// 
+			this.label42.AutoSize = true;
+			this.label42.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label42.ForeColor = System.Drawing.Color.White;
+			this.label42.Location = new System.Drawing.Point(187, 328);
+			this.label42.Name = "label42";
+			this.label42.Size = new System.Drawing.Size(55, 25);
+			this.label42.TabIndex = 61;
+			this.label42.Text = "label1";
+			// 
+			// label43
+			// 
+			this.label43.AutoSize = true;
+			this.label43.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label43.ForeColor = System.Drawing.Color.White;
+			this.label43.Location = new System.Drawing.Point(187, 428);
+			this.label43.Name = "label43";
+			this.label43.Size = new System.Drawing.Size(55, 25);
+			this.label43.TabIndex = 60;
+			this.label43.Text = "label1";
+			// 
+			// label44
+			// 
+			this.label44.AutoSize = true;
+			this.label44.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label44.ForeColor = System.Drawing.Color.White;
+			this.label44.Location = new System.Drawing.Point(187, 403);
+			this.label44.Name = "label44";
+			this.label44.Size = new System.Drawing.Size(55, 25);
+			this.label44.TabIndex = 59;
+			this.label44.Text = "label1";
+			// 
+			// label45
+			// 
+			this.label45.AutoSize = true;
+			this.label45.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label45.ForeColor = System.Drawing.Color.White;
+			this.label45.Location = new System.Drawing.Point(187, 353);
+			this.label45.Name = "label45";
+			this.label45.Size = new System.Drawing.Size(55, 25);
+			this.label45.TabIndex = 58;
+			this.label45.Text = "label1";
+			// 
+			// label46
+			// 
+			this.label46.AutoSize = true;
+			this.label46.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label46.ForeColor = System.Drawing.Color.White;
+			this.label46.Location = new System.Drawing.Point(187, 378);
+			this.label46.Name = "label46";
+			this.label46.Size = new System.Drawing.Size(55, 25);
+			this.label46.TabIndex = 57;
+			this.label46.Text = "label1";
+			// 
+			// label47
+			// 
+			this.label47.AutoSize = true;
+			this.label47.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label47.ForeColor = System.Drawing.Color.White;
+			this.label47.Location = new System.Drawing.Point(19, 403);
+			this.label47.Name = "label47";
+			this.label47.Size = new System.Drawing.Size(160, 25);
+			this.label47.TabIndex = 56;
+			this.label47.Text = "Battery Remaining:";
+			// 
+			// label48
+			// 
+			this.label48.AutoSize = true;
+			this.label48.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label48.ForeColor = System.Drawing.Color.White;
+			this.label48.Location = new System.Drawing.Point(19, 428);
+			this.label48.Name = "label48";
+			this.label48.Size = new System.Drawing.Size(158, 25);
+			this.label48.TabIndex = 55;
+			this.label48.Text = "Battery Chemistry:";
+			// 
+			// label49
+			// 
+			this.label49.AutoSize = true;
+			this.label49.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label49.ForeColor = System.Drawing.Color.White;
+			this.label49.Location = new System.Drawing.Point(19, 378);
+			this.label49.Name = "label49";
+			this.label49.Size = new System.Drawing.Size(145, 25);
+			this.label49.TabIndex = 54;
+			this.label49.Text = "Battery Runtime:";
+			// 
+			// siticoneSeparator9
+			// 
+			this.siticoneSeparator9.BackColor = System.Drawing.Color.Transparent;
+			this.siticoneSeparator9.FillColor = System.Drawing.Color.White;
+			this.siticoneSeparator9.FillThickness = 3;
+			this.siticoneSeparator9.Location = new System.Drawing.Point(32, 295);
+			this.siticoneSeparator9.Name = "siticoneSeparator9";
+			this.siticoneSeparator9.Size = new System.Drawing.Size(153, 10);
+			this.siticoneSeparator9.TabIndex = 53;
+			this.siticoneSeparator9.UseTransparentBackground = true;
+			// 
+			// label50
+			// 
+			this.label50.AutoSize = true;
+			this.label50.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label50.ForeColor = System.Drawing.Color.White;
+			this.label50.Location = new System.Drawing.Point(26, 276);
+			this.label50.Name = "label50";
+			this.label50.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.label50.Size = new System.Drawing.Size(167, 25);
+			this.label50.TabIndex = 52;
+			this.label50.Text = "COMPUTER SYSTEM";
+			// 
+			// label51
+			// 
+			this.label51.AutoSize = true;
+			this.label51.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label51.ForeColor = System.Drawing.Color.White;
+			this.label51.Location = new System.Drawing.Point(19, 353);
+			this.label51.Name = "label51";
+			this.label51.Size = new System.Drawing.Size(130, 25);
+			this.label51.TabIndex = 51;
+			this.label51.Text = "Battery Status:";
+			// 
+			// label52
+			// 
+			this.label52.AutoSize = true;
+			this.label52.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label52.ForeColor = System.Drawing.Color.White;
+			this.label52.Location = new System.Drawing.Point(19, 328);
+			this.label52.Name = "label52";
+			this.label52.Size = new System.Drawing.Size(124, 25);
+			this.label52.TabIndex = 50;
+			this.label52.Text = "Battery Name:";
+			// 
+			// label53
+			// 
+			this.label53.AutoSize = true;
+			this.label53.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label53.ForeColor = System.Drawing.Color.White;
+			this.label53.Location = new System.Drawing.Point(19, 303);
+			this.label53.Name = "label53";
+			this.label53.Size = new System.Drawing.Size(149, 25);
+			this.label53.TabIndex = 49;
+			this.label53.Text = "Battery Device ID:";
+			// 
+			// label40
+			// 
+			this.label40.AutoSize = true;
+			this.label40.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label40.ForeColor = System.Drawing.Color.White;
+			this.label40.Location = new System.Drawing.Point(533, 303);
+			this.label40.Name = "label40";
+			this.label40.Size = new System.Drawing.Size(55, 25);
+			this.label40.TabIndex = 47;
+			this.label40.Text = "label1";
+			// 
+			// label39
+			// 
+			this.label39.AutoSize = true;
+			this.label39.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label39.ForeColor = System.Drawing.Color.White;
+			this.label39.Location = new System.Drawing.Point(533, 328);
+			this.label39.Name = "label39";
+			this.label39.Size = new System.Drawing.Size(55, 25);
+			this.label39.TabIndex = 46;
+			this.label39.Text = "label1";
+			// 
+			// label37
+			// 
+			this.label37.AutoSize = true;
+			this.label37.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label37.ForeColor = System.Drawing.Color.White;
+			this.label37.Location = new System.Drawing.Point(533, 428);
+			this.label37.Name = "label37";
+			this.label37.Size = new System.Drawing.Size(55, 25);
+			this.label37.TabIndex = 45;
+			this.label37.Text = "label1";
+			// 
+			// label38
+			// 
+			this.label38.AutoSize = true;
+			this.label38.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label38.ForeColor = System.Drawing.Color.White;
+			this.label38.Location = new System.Drawing.Point(533, 403);
+			this.label38.Name = "label38";
+			this.label38.Size = new System.Drawing.Size(55, 25);
+			this.label38.TabIndex = 44;
+			this.label38.Text = "label1";
+			// 
+			// label35
+			// 
+			this.label35.AutoSize = true;
+			this.label35.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label35.ForeColor = System.Drawing.Color.White;
+			this.label35.Location = new System.Drawing.Point(533, 353);
+			this.label35.Name = "label35";
+			this.label35.Size = new System.Drawing.Size(55, 25);
+			this.label35.TabIndex = 43;
+			this.label35.Text = "label1";
+			// 
+			// label36
+			// 
+			this.label36.AutoSize = true;
+			this.label36.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label36.ForeColor = System.Drawing.Color.White;
+			this.label36.Location = new System.Drawing.Point(533, 378);
+			this.label36.Name = "label36";
+			this.label36.Size = new System.Drawing.Size(55, 25);
+			this.label36.TabIndex = 42;
+			this.label36.Text = "label1";
 			// 
 			// label32
 			// 
 			this.label32.AutoSize = true;
 			this.label32.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label32.ForeColor = System.Drawing.Color.White;
-			this.label32.Location = new System.Drawing.Point(363, 415);
+			this.label32.Location = new System.Drawing.Point(365, 403);
 			this.label32.Name = "label32";
 			this.label32.Size = new System.Drawing.Size(128, 25);
 			this.label32.TabIndex = 41;
@@ -198,7 +442,7 @@
 			this.label33.AutoSize = true;
 			this.label33.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label33.ForeColor = System.Drawing.Color.White;
-			this.label33.Location = new System.Drawing.Point(363, 440);
+			this.label33.Location = new System.Drawing.Point(365, 428);
 			this.label33.Name = "label33";
 			this.label33.Size = new System.Drawing.Size(114, 25);
 			this.label33.TabIndex = 40;
@@ -209,7 +453,7 @@
 			this.label34.AutoSize = true;
 			this.label34.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label34.ForeColor = System.Drawing.Color.White;
-			this.label34.Location = new System.Drawing.Point(363, 390);
+			this.label34.Location = new System.Drawing.Point(365, 378);
 			this.label34.Name = "label34";
 			this.label34.Size = new System.Drawing.Size(156, 25);
 			this.label34.TabIndex = 39;
@@ -265,7 +509,7 @@
 			this.siticoneSeparator7.BackColor = System.Drawing.Color.Transparent;
 			this.siticoneSeparator7.FillColor = System.Drawing.Color.White;
 			this.siticoneSeparator7.FillThickness = 3;
-			this.siticoneSeparator7.Location = new System.Drawing.Point(809, 17);
+			this.siticoneSeparator7.Location = new System.Drawing.Point(809, 24);
 			this.siticoneSeparator7.Name = "siticoneSeparator7";
 			this.siticoneSeparator7.Size = new System.Drawing.Size(17, 10);
 			this.siticoneSeparator7.TabIndex = 34;
@@ -276,7 +520,7 @@
 			this.label4.AutoSize = true;
 			this.label4.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label4.ForeColor = System.Drawing.Color.White;
-			this.label4.Location = new System.Drawing.Point(804, 0);
+			this.label4.Location = new System.Drawing.Point(804, 7);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(28, 25);
 			this.label4.TabIndex = 33;
@@ -333,7 +577,7 @@
 			this.siticoneSeparator5.FillThickness = 3;
 			this.siticoneSeparator5.Location = new System.Drawing.Point(1, 263);
 			this.siticoneSeparator5.Name = "siticoneSeparator5";
-			this.siticoneSeparator5.Size = new System.Drawing.Size(926, 10);
+			this.siticoneSeparator5.Size = new System.Drawing.Size(1371, 10);
 			this.siticoneSeparator5.TabIndex = 28;
 			this.siticoneSeparator5.UseTransparentBackground = true;
 			// 
@@ -386,7 +630,7 @@
 			this.siticoneSeparator3.BackColor = System.Drawing.Color.Transparent;
 			this.siticoneSeparator3.FillColor = System.Drawing.Color.White;
 			this.siticoneSeparator3.FillThickness = 3;
-			this.siticoneSeparator3.Location = new System.Drawing.Point(447, 17);
+			this.siticoneSeparator3.Location = new System.Drawing.Point(447, 24);
 			this.siticoneSeparator3.Name = "siticoneSeparator3";
 			this.siticoneSeparator3.Size = new System.Drawing.Size(38, 10);
 			this.siticoneSeparator3.TabIndex = 22;
@@ -397,7 +641,7 @@
 			this.label15.AutoSize = true;
 			this.label15.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label15.ForeColor = System.Drawing.Color.White;
-			this.label15.Location = new System.Drawing.Point(442, 0);
+			this.label15.Location = new System.Drawing.Point(442, 7);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(49, 25);
 			this.label15.TabIndex = 21;
@@ -498,7 +742,7 @@
 			this.siticoneSeparator2.BackColor = System.Drawing.Color.Transparent;
 			this.siticoneSeparator2.FillColor = System.Drawing.Color.White;
 			this.siticoneSeparator2.FillThickness = 3;
-			this.siticoneSeparator2.Location = new System.Drawing.Point(64, 17);
+			this.siticoneSeparator2.Location = new System.Drawing.Point(64, 24);
 			this.siticoneSeparator2.Name = "siticoneSeparator2";
 			this.siticoneSeparator2.Size = new System.Drawing.Size(100, 10);
 			this.siticoneSeparator2.TabIndex = 15;
@@ -509,7 +753,7 @@
 			this.label13.AutoSize = true;
 			this.label13.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label13.ForeColor = System.Drawing.Color.White;
-			this.label13.Location = new System.Drawing.Point(59, 0);
+			this.label13.Location = new System.Drawing.Point(59, 7);
 			this.label13.Name = "label13";
 			this.label13.Size = new System.Drawing.Size(109, 25);
 			this.label13.TabIndex = 14;
@@ -522,7 +766,7 @@
 			this.siticoneSeparator1.FillThickness = 3;
 			this.siticoneSeparator1.Location = new System.Drawing.Point(-2, 125);
 			this.siticoneSeparator1.Name = "siticoneSeparator1";
-			this.siticoneSeparator1.Size = new System.Drawing.Size(929, 10);
+			this.siticoneSeparator1.Size = new System.Drawing.Size(1374, 10);
 			this.siticoneSeparator1.TabIndex = 13;
 			this.siticoneSeparator1.UseTransparentBackground = true;
 			// 
@@ -531,7 +775,7 @@
 			this.label9.AutoSize = true;
 			this.label9.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label9.ForeColor = System.Drawing.Color.White;
-			this.label9.Location = new System.Drawing.Point(363, 365);
+			this.label9.Location = new System.Drawing.Point(365, 353);
 			this.label9.Name = "label9";
 			this.label9.Size = new System.Drawing.Size(162, 25);
 			this.label9.TabIndex = 12;
@@ -542,7 +786,7 @@
 			this.label10.AutoSize = true;
 			this.label10.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label10.ForeColor = System.Drawing.Color.White;
-			this.label10.Location = new System.Drawing.Point(363, 340);
+			this.label10.Location = new System.Drawing.Point(365, 328);
 			this.label10.Name = "label10";
 			this.label10.Size = new System.Drawing.Size(137, 25);
 			this.label10.TabIndex = 11;
@@ -553,7 +797,7 @@
 			this.label11.AutoSize = true;
 			this.label11.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label11.ForeColor = System.Drawing.Color.White;
-			this.label11.Location = new System.Drawing.Point(363, 315);
+			this.label11.Location = new System.Drawing.Point(365, 303);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(132, 25);
 			this.label11.TabIndex = 10;
@@ -669,259 +913,15 @@
 			this.hwidLabel.TabIndex = 0;
 			this.hwidLabel.Text = "label1";
 			// 
-			// label35
-			// 
-			this.label35.AutoSize = true;
-			this.label35.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label35.ForeColor = System.Drawing.Color.White;
-			this.label35.Location = new System.Drawing.Point(531, 365);
-			this.label35.Name = "label35";
-			this.label35.Size = new System.Drawing.Size(55, 25);
-			this.label35.TabIndex = 43;
-			this.label35.Text = "label1";
-			// 
-			// label36
-			// 
-			this.label36.AutoSize = true;
-			this.label36.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label36.ForeColor = System.Drawing.Color.White;
-			this.label36.Location = new System.Drawing.Point(531, 390);
-			this.label36.Name = "label36";
-			this.label36.Size = new System.Drawing.Size(55, 25);
-			this.label36.TabIndex = 42;
-			this.label36.Text = "label1";
-			// 
-			// label37
-			// 
-			this.label37.AutoSize = true;
-			this.label37.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label37.ForeColor = System.Drawing.Color.White;
-			this.label37.Location = new System.Drawing.Point(531, 440);
-			this.label37.Name = "label37";
-			this.label37.Size = new System.Drawing.Size(55, 25);
-			this.label37.TabIndex = 45;
-			this.label37.Text = "label1";
-			// 
-			// label38
-			// 
-			this.label38.AutoSize = true;
-			this.label38.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label38.ForeColor = System.Drawing.Color.White;
-			this.label38.Location = new System.Drawing.Point(531, 415);
-			this.label38.Name = "label38";
-			this.label38.Size = new System.Drawing.Size(55, 25);
-			this.label38.TabIndex = 44;
-			this.label38.Text = "label1";
-			// 
-			// label39
-			// 
-			this.label39.AutoSize = true;
-			this.label39.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label39.ForeColor = System.Drawing.Color.White;
-			this.label39.Location = new System.Drawing.Point(531, 340);
-			this.label39.Name = "label39";
-			this.label39.Size = new System.Drawing.Size(55, 25);
-			this.label39.TabIndex = 46;
-			this.label39.Text = "label1";
-			// 
-			// label40
-			// 
-			this.label40.AutoSize = true;
-			this.label40.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label40.ForeColor = System.Drawing.Color.White;
-			this.label40.Location = new System.Drawing.Point(531, 315);
-			this.label40.Name = "label40";
-			this.label40.Size = new System.Drawing.Size(55, 25);
-			this.label40.TabIndex = 47;
-			this.label40.Text = "label1";
-			// 
-			// label41
-			// 
-			this.label41.AutoSize = true;
-			this.label41.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label41.ForeColor = System.Drawing.Color.White;
-			this.label41.Location = new System.Drawing.Point(185, 315);
-			this.label41.Name = "label41";
-			this.label41.Size = new System.Drawing.Size(55, 25);
-			this.label41.TabIndex = 62;
-			this.label41.Text = "label1";
-			// 
-			// label42
-			// 
-			this.label42.AutoSize = true;
-			this.label42.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label42.ForeColor = System.Drawing.Color.White;
-			this.label42.Location = new System.Drawing.Point(185, 340);
-			this.label42.Name = "label42";
-			this.label42.Size = new System.Drawing.Size(55, 25);
-			this.label42.TabIndex = 61;
-			this.label42.Text = "label1";
-			// 
-			// label43
-			// 
-			this.label43.AutoSize = true;
-			this.label43.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label43.ForeColor = System.Drawing.Color.White;
-			this.label43.Location = new System.Drawing.Point(185, 440);
-			this.label43.Name = "label43";
-			this.label43.Size = new System.Drawing.Size(55, 25);
-			this.label43.TabIndex = 60;
-			this.label43.Text = "label1";
-			// 
-			// label44
-			// 
-			this.label44.AutoSize = true;
-			this.label44.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label44.ForeColor = System.Drawing.Color.White;
-			this.label44.Location = new System.Drawing.Point(185, 415);
-			this.label44.Name = "label44";
-			this.label44.Size = new System.Drawing.Size(55, 25);
-			this.label44.TabIndex = 59;
-			this.label44.Text = "label1";
-			// 
-			// label45
-			// 
-			this.label45.AutoSize = true;
-			this.label45.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label45.ForeColor = System.Drawing.Color.White;
-			this.label45.Location = new System.Drawing.Point(185, 365);
-			this.label45.Name = "label45";
-			this.label45.Size = new System.Drawing.Size(55, 25);
-			this.label45.TabIndex = 58;
-			this.label45.Text = "label1";
-			// 
-			// label46
-			// 
-			this.label46.AutoSize = true;
-			this.label46.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label46.ForeColor = System.Drawing.Color.White;
-			this.label46.Location = new System.Drawing.Point(185, 390);
-			this.label46.Name = "label46";
-			this.label46.Size = new System.Drawing.Size(55, 25);
-			this.label46.TabIndex = 57;
-			this.label46.Text = "label1";
-			// 
-			// label47
-			// 
-			this.label47.AutoSize = true;
-			this.label47.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label47.ForeColor = System.Drawing.Color.White;
-			this.label47.Location = new System.Drawing.Point(17, 415);
-			this.label47.Name = "label47";
-			this.label47.Size = new System.Drawing.Size(160, 25);
-			this.label47.TabIndex = 56;
-			this.label47.Text = "Battery Remaining:";
-			// 
-			// label48
-			// 
-			this.label48.AutoSize = true;
-			this.label48.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label48.ForeColor = System.Drawing.Color.White;
-			this.label48.Location = new System.Drawing.Point(17, 440);
-			this.label48.Name = "label48";
-			this.label48.Size = new System.Drawing.Size(158, 25);
-			this.label48.TabIndex = 55;
-			this.label48.Text = "Battery Chemistry:";
-			// 
-			// label49
-			// 
-			this.label49.AutoSize = true;
-			this.label49.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label49.ForeColor = System.Drawing.Color.White;
-			this.label49.Location = new System.Drawing.Point(17, 390);
-			this.label49.Name = "label49";
-			this.label49.Size = new System.Drawing.Size(145, 25);
-			this.label49.TabIndex = 54;
-			this.label49.Text = "Battery Runtime:";
-			// 
-			// siticoneSeparator9
-			// 
-			this.siticoneSeparator9.BackColor = System.Drawing.Color.Transparent;
-			this.siticoneSeparator9.FillColor = System.Drawing.Color.White;
-			this.siticoneSeparator9.FillThickness = 3;
-			this.siticoneSeparator9.Location = new System.Drawing.Point(32, 295);
-			this.siticoneSeparator9.Name = "siticoneSeparator9";
-			this.siticoneSeparator9.Size = new System.Drawing.Size(153, 10);
-			this.siticoneSeparator9.TabIndex = 53;
-			this.siticoneSeparator9.UseTransparentBackground = true;
-			// 
-			// label50
-			// 
-			this.label50.AutoSize = true;
-			this.label50.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label50.ForeColor = System.Drawing.Color.White;
-			this.label50.Location = new System.Drawing.Point(26, 276);
-			this.label50.Name = "label50";
-			this.label50.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-			this.label50.Size = new System.Drawing.Size(167, 25);
-			this.label50.TabIndex = 52;
-			this.label50.Text = "COMPUTER SYSTEM";
-			// 
-			// label51
-			// 
-			this.label51.AutoSize = true;
-			this.label51.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label51.ForeColor = System.Drawing.Color.White;
-			this.label51.Location = new System.Drawing.Point(17, 365);
-			this.label51.Name = "label51";
-			this.label51.Size = new System.Drawing.Size(130, 25);
-			this.label51.TabIndex = 51;
-			this.label51.Text = "Battery Status:";
-			// 
-			// label52
-			// 
-			this.label52.AutoSize = true;
-			this.label52.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label52.ForeColor = System.Drawing.Color.White;
-			this.label52.Location = new System.Drawing.Point(17, 340);
-			this.label52.Name = "label52";
-			this.label52.Size = new System.Drawing.Size(124, 25);
-			this.label52.TabIndex = 50;
-			this.label52.Text = "Battery Name:";
-			// 
-			// label53
-			// 
-			this.label53.AutoSize = true;
-			this.label53.Font = new System.Drawing.Font("Dosis", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label53.ForeColor = System.Drawing.Color.White;
-			this.label53.Location = new System.Drawing.Point(17, 315);
-			this.label53.Name = "label53";
-			this.label53.Size = new System.Drawing.Size(149, 25);
-			this.label53.TabIndex = 49;
-			this.label53.Text = "Battery Device ID:";
-			// 
 			// siticoneTaskBarProgress1
 			// 
 			this.siticoneTaskBarProgress1.TargetForm = null;
-			// 
-			// siticoneVSeparator1
-			// 
-			this.siticoneVSeparator1.BackColor = System.Drawing.Color.Transparent;
-			this.siticoneVSeparator1.FillColor = System.Drawing.Color.White;
-			this.siticoneVSeparator1.FillThickness = 3;
-			this.siticoneVSeparator1.Location = new System.Drawing.Point(347, -12);
-			this.siticoneVSeparator1.Name = "siticoneVSeparator1";
-			this.siticoneVSeparator1.Size = new System.Drawing.Size(10, 477);
-			this.siticoneVSeparator1.TabIndex = 63;
-			this.siticoneVSeparator1.UseTransparentBackground = true;
-			this.siticoneVSeparator1.Click += new System.EventHandler(this.siticoneVSeparator1_Click);
-			// 
-			// siticoneVSeparator2
-			// 
-			this.siticoneVSeparator2.BackColor = System.Drawing.Color.Transparent;
-			this.siticoneVSeparator2.FillColor = System.Drawing.Color.White;
-			this.siticoneVSeparator2.FillThickness = 3;
-			this.siticoneVSeparator2.Location = new System.Drawing.Point(709, -12);
-			this.siticoneVSeparator2.Name = "siticoneVSeparator2";
-			this.siticoneVSeparator2.Size = new System.Drawing.Size(10, 144);
-			this.siticoneVSeparator2.TabIndex = 64;
-			this.siticoneVSeparator2.UseTransparentBackground = true;
 			// 
 			// frmSystemInfo
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(32)))), ((int)(((byte)(66)))));
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.ClientSize = new System.Drawing.Size(1036, 475);
 			this.Controls.Add(this.panel1);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
